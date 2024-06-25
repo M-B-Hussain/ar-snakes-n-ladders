@@ -465,7 +465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 115471085393532492, guid: 52171117e71f4bd4da60577358ad64b3,
     type: 3}
-  m_DetectionMode: 2
+  m_DetectionMode: -1
 --- !u!1001 &2018868581539509803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -532,6 +532,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018868582033358529, guid: 089ad4d9cedb2d64fb73ebec1bbd4b00,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 089ad4d9cedb2d64fb73ebec1bbd4b00, type: 3}
