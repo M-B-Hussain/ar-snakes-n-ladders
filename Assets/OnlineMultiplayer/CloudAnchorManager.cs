@@ -1,7 +1,7 @@
 public class CloudAnchorManager : MonoBehaviour
-private Dictionary<int, CloudAnchor> cloudAnchors = new Dictionary<int, CloudAnchor>();
 {
     public GameManager gameManager;
+    private Dictionary<int, CloudAnchor> cloudAnchors = new Dictionary<int, CloudAnchor>();
 
     void Start()
     {
@@ -21,8 +21,9 @@ private Dictionary<int, CloudAnchor> cloudAnchors = new Dictionary<int, CloudAnc
 
     void CreateCloudAnchor(int playerId)
     {
-         CloudAnchor cloudAnchor = gameManager.tokenParent.GetComponentInChildren<CloudAnchor>();
-          if (cloudAnchor == null)
+        // Create a new cloud anchor for the player
+        CloudAnchor cloudAnchor = gameManager.tokenParent.GetComponentInChildren<CloudAnchor>();
+        if (cloudAnchor == null)
         {
             cloudAnchor = gameManager.tokenPrefab.GetComponent<CloudAnchor>();
         }
@@ -34,10 +35,11 @@ private Dictionary<int, CloudAnchor> cloudAnchors = new Dictionary<int, CloudAnc
         // Add the cloud anchor to the dictionary
         cloudAnchors.Add(playerId, cloudAnchor);
     }
-     public void OnPlayerJoined(int playerId)
+
+    public void OnPlayerJoined(int playerId)
     {
         // Create a new cloud anchor for the player
-            CreateCloudAnchor(playerId);
+        CreateCloudAnchor(playerId);
     }
 
     public void OnPlayerLeft(int playerId)
