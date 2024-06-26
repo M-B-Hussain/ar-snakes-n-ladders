@@ -3,40 +3,55 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    // The UI text components to display the scores
-    public Text[] playerScores;
+    public Text scoreText;
+    public GameManager gameManager;
 
-    // The current scores for each player
-    int[] scores = new int[4];
-
-    // The GameManager script
-    private GameManager gameManager;
+    private string[] playerNames;
+    private int[] playerScores;
 
     void Start()
     {
-        gameManager = GameObject.FindObjectOfType<GameManager>();
+        // Initialize player names and scores
+        playerNames = new string[gameManager.maxPlayers];
+        playerScores = new int[gameManager.maxPlayers];
+
+        // Set up the score text
+        scoreText.text = "";
     }
 
-    // Update the scores when a player moves
-    public void UpdateScore(int playerIndex, int score)
+    public void UpdateScore(int playerId, int score)
     {
-        scores[playerIndex] += score;
-        UpdateScoreUI(playerIndex);
-    }
+        // Update the player's score
+        playerScores[playerId] = score;
 
-    // Update the UI with the new score
-    void UpdateScoreUI(int playerIndex)
-    {
-        playerScores[playerIndex].text = "Player " + (playerIndex + 1) + ": " + scores[playerIndex];
-    }
-
-    // Reset the scores when the game starts
-    public void ResetScores()
-    {
-        for (int i = 0; i < scores.Length; i++)
+        // Update the score text
+        string scoreString = "";
+        for (int i = 0; i < gameManager.players.Count; i++)
         {
-            scores[i] = 0;
-            UpdateScoreUI(i);
+            scoreString += playerNames[i] + ": " + playerScores[i] + "\n";
+        }
+        scoreText.text = scoreString;
+    }
+
+    public void SetPlayerName(int playerId, string playerName)
+    {
+        // Set the player's name
+        playerNames[playerId] = playerName;
+    }
+
+    public void CheckForMinimumPlayers()
+    {
+        // Check if there are at least 2 players in the lobby
+        if (gameManager.players.Count < 2)
+        {
+            // If not, disable the game
+            gameManager.enabled = false;
+            scoreText.text = "Not enough players. Waiting for more players to join...";
+        }
+        else
+        {
+            // If there are at least 2 players, enable the game
+            gameManager.enabled = true;
         }
     }
 }
