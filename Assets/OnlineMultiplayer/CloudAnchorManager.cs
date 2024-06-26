@@ -47,5 +47,15 @@ public class CloudAnchorManager : MonoBehaviour
         // Remove the cloud anchor for the player
         RemoveCloudAnchor(playerId);
     }
+   void RemoveCloudAnchor(int playerId)
+    {
+        // Remove the cloud anchor for the player
+       if (cloudAnchors.TryGetValue(playerId, out CloudAnchor cloudAnchor))
+        {
+         Destroy(cloudAnchor.gameObject);
 
+            // Remove the cloud anchor from the dictionary
+            cloudAnchors.Remove(playerId);
+        }
+    }
 }
