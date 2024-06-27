@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
     public DiceRoller diceRoller;
     public ScoreManager scoreManager;
     public CloudAnchorManager cloudAnchorManager;
+    public TokenManager tokenManager;
 
     void Start()
     {
@@ -27,7 +28,7 @@ public class GameManager : MonoBehaviour
             player.playerId = i;
             player.playerName = "Player " + (i + 1);
             player.score = 0;
-            player.tokenPosition = 0; // Initialize token position to 0
+            player.tokenPosition = 0; 
             players.Add(player);
         }
     }
@@ -52,6 +53,12 @@ public class GameManager : MonoBehaviour
                 players[nextPlayerIndex].turn = true;
             }
         }
+    }
+    void MoveToken(Player player, int roll)
+    {
+       // Move the token based on the dice roll
+        player.tokenPosition += roll;
+        tokenManager.MoveToken(player.playerId, player.tokenPosition);
     }
 
     public void OnPlayerJoined(int playerId, string playerName)
