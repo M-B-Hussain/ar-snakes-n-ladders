@@ -5,6 +5,7 @@ public class CloudAnchorManager : MonoBehaviour
 
     void Start()
     {
+        //we still have to wait for the players on board 
         // Initialize cloud anchor manager
         InitializeCloudAnchors();
     }
