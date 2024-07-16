@@ -10,6 +10,7 @@ public class Dice : MonoBehaviour
 {
     public Transform[] diceFaces;
     public Rigidbody rb;
+    public int diceResult;
 
 
     private int _diceIndex = -1;
@@ -32,6 +33,7 @@ public class Dice : MonoBehaviour
         {
             _hasStoppedRolling = true;
             GetNumberOnTopFace();
+            diceResult = GetNumberOnTopFace();
         }
     }
 
