@@ -169,7 +169,7 @@ public class Player : MonoBehaviour
     private void CheckEnemyEncounter(int position)
     {
         // Check if the player lands on an enemy position (4, 10, 14, 18, 23)
-        if (position == 4 || position == 10 || position == 14 || position == 18 || position == 23)
+        if (position == 4 || position == 10 || position == 18 || position == 23)
         {
             // Play death animation for the player
             StartCoroutine(PlayerDeath());
@@ -183,11 +183,6 @@ public class Player : MonoBehaviour
             else if (position == 10)
             {
                 Animator enemyAnimator = enemies[1].GetComponent<Animator>();
-                enemyAnimator.SetTrigger("Attack");
-            }
-            else if (position == 14)
-            {
-                Animator enemyAnimator = enemies[2].GetComponent<Animator>();
                 enemyAnimator.SetTrigger("Attack");
             }
             else if (position == 18)
@@ -218,9 +213,33 @@ public class Player : MonoBehaviour
                 
                 if (newPosition == 1) { gameObject.transform.localPosition = new Vector3(0, 0, 0); }
                 else if (newPosition == 7) { gameObject.transform.localPosition = new Vector3(50, 0, 10); }
-                else if (newPosition == 11) { gameObject.transform.localPosition = new Vector3(10, 0, 10); }
                 else if (newPosition == 15) { gameObject.transform.localPosition = new Vector3(20, 0, 20); }
                 else { gameObject.transform.localPosition = new Vector3(40, 0, 30); }
+            }
+        }
+
+        if(position == 3 || position == 15 || position == 9)
+        {
+            // Teleport the player forward 2 places
+            newPosition = currentPosition + 2;
+            currentPosition = currentPosition + 2;
+            if (newPosition > 24)
+            {
+                newPosition = 24; // Ensure the player does not go above position 24
+            }
+
+            //teleport back
+
+            StartCoroutine(Teleport());
+
+            IEnumerator Teleport()
+            {
+                yield return new WaitForSeconds(1);
+
+                if (newPosition == 5) { gameObject.transform.localPosition = new Vector3(40, 0, 0); }
+                else if (newPosition == 17) { gameObject.transform.localPosition = new Vector3(40, 0, 20); }
+                else { gameObject.transform.localPosition = new Vector3(10, 0, 10); }    
+                
             }
         }
     }

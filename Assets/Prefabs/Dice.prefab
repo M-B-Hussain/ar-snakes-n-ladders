@@ -246,6 +246,7 @@ MonoBehaviour:
   - {fileID: 2554262662496555141}
   - {fileID: 5357069776798294498}
   rb: {fileID: 0}
+  diceResult: 0
 --- !u!54 &6591448139333982311
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -277,17 +278,17 @@ PrefabInstance:
     - target: {fileID: 6059003587714193953, guid: 3a83d1b770fe0e34ea0ec9f13369f5fd,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6059003587714193953, guid: 3a83d1b770fe0e34ea0ec9f13369f5fd,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6059003587714193953, guid: 3a83d1b770fe0e34ea0ec9f13369f5fd,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6059003587714193953, guid: 3a83d1b770fe0e34ea0ec9f13369f5fd,
         type: 3}
