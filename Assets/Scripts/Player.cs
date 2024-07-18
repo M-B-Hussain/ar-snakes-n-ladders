@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     public float moveSpeed = 2f; // Speed at which the player moves
     private Animator animator;
     private Vector3 targetPosition;
-    private int currentPosition = 1; // Starting position (1 to 24)
+    public int currentPosition = 1; // Starting position (1 to 24)
     private Transform boardTransform;
     private AudioSource source;
     public int newPosition;
@@ -205,6 +205,7 @@ public class Player : MonoBehaviour
 
             // Teleport the player back 3 places
             newPosition = currentPosition - 3;
+            currentPosition = currentPosition - 3;
             if (newPosition < 1)
             {
                 newPosition = 1; // Ensure the player does not go below position 1
@@ -225,7 +226,7 @@ public class Player : MonoBehaviour
             }
         }
 
-        if(position == 3 || position == 15 || position == 9)
+        if(position == 3 || position == 14 || position == 9)
         {
             // Teleport the player forward 2 places
             newPosition = currentPosition + 2;
@@ -244,7 +245,7 @@ public class Player : MonoBehaviour
                 yield return new WaitForSeconds(1);
 
                 if (newPosition == 5) { gameObject.transform.localPosition = new Vector3(40, 0, 0); }
-                else if (newPosition == 17) { gameObject.transform.localPosition = new Vector3(40, 0, 20); }
+                else if (newPosition == 16) { gameObject.transform.localPosition = new Vector3(30, 0, 20); }
                 else { gameObject.transform.localPosition = new Vector3(10, 0, 10); }    
                 
             }

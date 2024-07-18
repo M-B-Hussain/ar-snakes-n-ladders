@@ -759,6 +759,16 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1354141926}
+    - target: {fileID: 6824272120872585039, guid: 7df85a3f9432bb14eb1b6ebdc4d12a10,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824272120872585039, guid: 7df85a3f9432bb14eb1b6ebdc4d12a10,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7207347155333938535, guid: 7df85a3f9432bb14eb1b6ebdc4d12a10,
         type: 3}
       propertyPath: m_Camera
@@ -779,6 +789,16 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1354141926}
+    - target: {fileID: 8215700603623977866, guid: 7df85a3f9432bb14eb1b6ebdc4d12a10,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215700603623977866, guid: 7df85a3f9432bb14eb1b6ebdc4d12a10,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9054840767191471292, guid: 7df85a3f9432bb14eb1b6ebdc4d12a10,
         type: 3}
       propertyPath: m_Camera
