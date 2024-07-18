@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     private Vector3 targetPosition;
     private int currentPosition = 1; // Starting position (1 to 24)
     private Transform boardTransform;
-
+    private AudioSource source;
     public int newPosition;
 
     public List<GameObject> enemies; // List of enemy GameObjects
@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
         targetPosition = transform.localPosition; // Initialize target position in local space
         boardTransform = transform.parent; // Assume the player is a child of the board
     }
@@ -50,6 +51,9 @@ public class Player : MonoBehaviour
     {
         // Set animation to walk
         animator.SetBool("isWalking", true);
+
+        // Set audio source with walking sound to true
+        source.enabled = true;
 
         // Move through each position sequentially
         while (currentPosition < newPosition)
@@ -95,6 +99,9 @@ public class Player : MonoBehaviour
 
         // Set animation back to idle
         animator.SetBool("isWalking", false);
+
+        // Set audio source with walking sound to true
+        source.enabled = false;
 
         StopAllCoroutines();
 
