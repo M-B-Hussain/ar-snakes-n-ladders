@@ -1,62 +1,66 @@
+using UnityEngine;
+using UnityEngine.Networking;
+using System.Collections.Generic;
+//using AzureSpatialAnchors;
+
+namespace CloudAnchor {
+    
+}
+
 public class CloudAnchorManager : MonoBehaviour
 {
-    public GameManager gameManager;
-    private Dictionary<int, CloudAnchor> cloudAnchors = new Dictionary<int, CloudAnchor>();
+    public GameManager gameManager { get; set; }
+    public Dictionary<int, CloudAnchor> cloudAnchors { get; set; }
 
-    void Start()
+    private void Start()
     {
-        //we still have to wait for the players on board 
-        // Initialize cloud anchor manager
-        InitializeCloudAnchors();
+        cloudAnchors = new Dictionary<int, CloudAnchor>();
     }
 
-    void InitializeCloudAnchors()
+    public void InitializeOnlineGame(int maxPlayers)
     {
-        // Initialize cloud anchors for each player
-        for (int i = 0; i < gameManager.maxPlayers; i++)
+        // Create a new cloud anchor for each player
+        for (int i = 0; i < maxPlayers; i++)
         {
-            // Create a new cloud anchor for each player
-            CreateCloudAnchor(i);
+            CloudAnchor cloudAnchor = CreateCloudAnchor(i);
+            cloudAnchors.Add(i, cloudAnchor);
         }
     }
 
-    void CreateCloudAnchor(int playerId)
+    public CloudAnchor CreateCloudAnchor(int playerId)
     {
-        // Create a new cloud anchor for the player
-        CloudAnchor cloudAnchor = gameManager.tokenParent.GetComponentInChildren<CloudAnchor>();
-        if (cloudAnchor == null)
-        {
-            cloudAnchor = gameManager.tokenPrefab.GetComponent<CloudAnchor>();
-        }
-
-        // Set the cloud anchor's ID and player ID
+        // Create a new cloud anchor
+        CloudAnchor cloudAnchor = new GameObject("CloudAnchor").AddComponent<CloudAnchor>();
         cloudAnchor.anchorId = Guid.NewGuid().ToString();
         cloudAnchor.playerId = playerId;
 
-        // Add the cloud anchor to the dictionary
-        cloudAnchors.Add(playerId, cloudAnchor);
+        return cloudAnchor;
     }
 
     public void OnPlayerJoined(int playerId)
     {
         // Create a new cloud anchor for the player
-        CreateCloudAnchor(playerId);
+        CloudAnchor cloudAnchor = CreateCloudAnchor(playerId);
+        cloudAnchors.Add(playerId, cloudAnchor);
     }
 
     public void OnPlayerLeft(int playerId)
     {
         // Remove the cloud anchor for the player
-        RemoveCloudAnchor(playerId);
-    }
-   void RemoveCloudAnchor(int playerId)
-    {
-        // Remove the cloud anchor for the player
-       if (cloudAnchors.TryGetValue(playerId, out CloudAnchor cloudAnchor))
+        if (cloudAnchors.TryGetValue(playerId, out CloudAnchor cloudAnchor))
         {
-         Destroy(cloudAnchor.gameObject);
-
-            // Remove the cloud anchor from the dictionary
+            Destroy(cloudAnchor.gameObject);
             cloudAnchors.Remove(playerId);
+        }
+    }
+
+    public void UpdateCloudAnchor(int playerId, Vector3 position, Quaternion rotation)
+    {
+        // Update the cloud anchor for the player
+        if (cloudAnchors.TryGetValue(playerId, out CloudAnchor cloudAnchor))
+        {
+            cloudAnchor.transform.position = position;
+            cloudAnchor.transform.rotation = rotation;
         }
     }
 }

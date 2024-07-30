@@ -1,81 +1,65 @@
+using UnityEngine;
+using UnityEngine.Networking;
+using System.Collections.Generic;
+
 public class GameManager : MonoBehaviour
 {
-    public int maxPlayers = 4;
-    public List<Player> players = new List<Player>();
-    public DiceRoller diceRoller;
-    public ScoreManager scoreManager;
-    public CloudAnchorManager cloudAnchorManager;
-    public TokenManager tokenManager;
+    public Dictionary<int, Player> players { get; set; }
+    public int maxPlayers { get; set; }
 
-    void Start()
+    private void Start()
     {
-        // Initialize game state
-        InitializeGameState();
+        players = new Dictionary<int, Player>();
     }
 
-    void Update()
+    public void InitializeOnlineGame(int maxPlayers)
     {
-        // Update game state based on player actions
-        UpdateGameState();
+        this.maxPlayers = maxPlayers;
     }
 
-    void InitializeGameState()
+    public void UpdateGameState(int playerId, int currentPosition, int diceRollResult, bool isEnemyEncounter)
     {
-        // Initialize player positions, scores, etc.
-        for (int i = 0; i < maxPlayers; i++)
+        // Update the game state for the player
+        if (players.TryGetValue(playerId, out Player player))
         {
-            Player player = new Player();
-            player.playerId = i;
-            player.playerName = "Player " + (i + 1);
-            player.score = 0;
-            player.tokenPosition = 0; 
-            players.Add(player);
-        }
-    }
+            player.currentPosition = currentPosition;
+            player.diceRollResult = diceRollResult;
+            player.isEnemyEncounter = isEnemyEncounter;
 
-    void UpdateGameState()
-    {
-        // Update player positions, scores, etc. based on dice rolls and game logic
-        foreach (Player player in players)
-        {
-            if (player.turn)
+            // Update the cloud anchor for the player
+            if (player.cloudAnchorManager != null)
             {
-                // Roll the dice and update the game state
-                int roll = diceRoller.RollDice();
-                player.score += roll;
-                // Move the token
-                MoveToken(player, roll);
-                // Update the scoreboard
-                scoreManager.UpdateScore(player.playerId, player.score);
-                // Switch to the next player's turn
-                player.turn = false;
-                int nextPlayerIndex = (player.playerId + 1) % maxPlayers;
-                players[nextPlayerIndex].turn = true;
+                player.cloudAnchorManager.UpdateCloudAnchor(playerId, player.transform.position, player.transform.rotation);
             }
         }
-    }
-    void MoveToken(Player player, int roll)
-    {
-       // Move the token based on the dice roll
-        player.tokenPosition += roll;
-        tokenManager.MoveToken(player.playerId, player.tokenPosition);
     }
 
     public void OnPlayerJoined(int playerId, string playerName)
     {
-        // Add the new player to the game
-        Player player = players[playerId];
+        // Create a new player object
+        Player player = new GameObject("Player").AddComponent<Player>();
+        player.playerId = playerId;
         player.playerName = playerName;
-        scoreManager.SetPlayerName(playerId, playerName);
-        cloudAnchorManager.OnPlayerJoined(playerId);
-        scoreManager.CheckForMinimumPlayers();
+        player.gameManager = this;
+        player.cloudAnchorManager = GameObject.FindObjectOfType<CloudAnchorManager>();
+
+        // Add the player to the dictionary
+        players.Add(playerId, player);
+
+        // Create a new cloud anchor for the player
+        player.cloudAnchorManager.OnPlayerJoined(playerId);
     }
 
     public void OnPlayerLeft(int playerId)
     {
-        // Remove the player from the game
-        players[playerId].turn = false;
-        cloudAnchorManager.OnPlayerLeft(playerId);
-        scoreManager.CheckForMinimumPlayers();
+        // Remove the player from the dictionary
+        if (players.TryGetValue(playerId, out Player player))
+        {
+            Destroy(player.gameObject);
+            players.Remove(playerId);
+
+            // Remove the cloud anchor for the player
+            player.cloudAnchorManager.OnPlayerLeft(playerId);
+        }
     }
 }
