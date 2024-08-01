@@ -551,9 +551,6 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.Canvas.op_Implicit
 	// UnityEngine.Canvas.op_Equality
 	// UnityEngine.Canvas.op_Inequality
-	// UnityEngine.UIElements.VectorImage.op_Implicit
-	// UnityEngine.UIElements.VectorImage.op_Equality
-	// UnityEngine.UIElements.VectorImage.op_Inequality
 	// UnityEngine.UIElements.PanelSettings.op_Implicit
 	// UnityEngine.UIElements.PanelSettings.op_Equality
 	// UnityEngine.UIElements.PanelSettings.op_Inequality
@@ -572,6 +569,9 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.UIElements.VisualTreeAsset.op_Implicit
 	// UnityEngine.UIElements.VisualTreeAsset.op_Equality
 	// UnityEngine.UIElements.VisualTreeAsset.op_Inequality
+	// UnityEngine.UIElements.VectorImage.op_Implicit
+	// UnityEngine.UIElements.VectorImage.op_Equality
+	// UnityEngine.UIElements.VectorImage.op_Inequality
 	// UnityEngine.WheelCollider.op_Implicit
 	// UnityEngine.WheelCollider.op_Equality
 	// UnityEngine.WheelCollider.op_Inequality
@@ -584,46 +584,327 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.WindZone.op_Implicit
 	// UnityEngine.WindZone.op_Equality
 	// UnityEngine.WindZone.op_Inequality
-	// UnityEngine.InputSystem.InputActionAsset.op_Implicit
-	// UnityEngine.InputSystem.InputActionAsset.op_Equality
-	// UnityEngine.InputSystem.InputActionAsset.op_Inequality
-	// UnityEngine.InputSystem.InputActionReference.op_Implicit
-	// UnityEngine.InputSystem.InputActionReference.op_Implicit
-	// UnityEngine.InputSystem.InputActionReference.op_Equality
-	// UnityEngine.InputSystem.InputActionReference.op_Inequality
-	// UnityEngine.InputSystem.InputSettings.op_Implicit
-	// UnityEngine.InputSystem.InputSettings.op_Equality
-	// UnityEngine.InputSystem.InputSettings.op_Inequality
-	// UnityEngine.InputSystem.PlayerInput.op_Implicit
-	// UnityEngine.InputSystem.PlayerInput.op_Equality
-	// UnityEngine.InputSystem.PlayerInput.op_Inequality
-	// UnityEngine.InputSystem.PlayerInputManager.op_Implicit
-	// UnityEngine.InputSystem.PlayerInputManager.op_Equality
-	// UnityEngine.InputSystem.PlayerInputManager.op_Inequality
-	// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Implicit
-	// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Equality
-	// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Inequality
-	// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Implicit
-	// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Equality
-	// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Inequality
-	// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Implicit
-	// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Equality
-	// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Inequality
-	// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Implicit
-	// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Equality
-	// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Inequality
-	// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Implicit
-	// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Equality
-	// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Inequality
-	// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Implicit
-	// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Equality
-	// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Inequality
-	// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Implicit
-	// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Equality
-	// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Inequality
-	// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Implicit
-	// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Equality
-	// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Inequality
+	// csDestroyEffect.op_Implicit
+	// csDestroyEffect.op_Equality
+	// csDestroyEffect.op_Inequality
+	// csMouseOrbit.op_Implicit
+	// csMouseOrbit.op_Equality
+	// csMouseOrbit.op_Inequality
+	// csParticleEffectPackLightControl.op_Implicit
+	// csParticleEffectPackLightControl.op_Equality
+	// csParticleEffectPackLightControl.op_Inequality
+	// csParticleMove.op_Implicit
+	// csParticleMove.op_Equality
+	// csParticleMove.op_Inequality
+	// csShowAllEffect.op_Implicit
+	// csShowAllEffect.op_Equality
+	// csShowAllEffect.op_Inequality
+	// AnchorCreator.op_Implicit
+	// AnchorCreator.op_Equality
+	// AnchorCreator.op_Inequality
+	// ARFeatheredPlaneMeshVisualizer.op_Implicit
+	// ARFeatheredPlaneMeshVisualizer.op_Equality
+	// ARFeatheredPlaneMeshVisualizer.op_Inequality
+	// NetworkARObject.op_Implicit
+	// NetworkARObject.op_Equality
+	// NetworkARObject.op_Inequality
+	// PhotonManager.op_Implicit
+	// PhotonManager.op_Equality
+	// PhotonManager.op_Inequality
+	// ARManager.op_Implicit
+	// ARManager.op_Equality
+	// ARManager.op_Inequality
+	// QuirkySeriesDemo.op_Implicit
+	// QuirkySeriesDemo.op_Equality
+	// QuirkySeriesDemo.op_Inequality
+	// RotateOnScroll.op_Implicit
+	// RotateOnScroll.op_Equality
+	// RotateOnScroll.op_Inequality
+	// RoomManager.op_Implicit
+	// RoomManager.op_Equality
+	// RoomManager.op_Inequality
+	// ARObjectPlacer.op_Implicit
+	// ARObjectPlacer.op_Equality
+	// ARObjectPlacer.op_Inequality
+	// Dice.op_Implicit
+	// Dice.op_Equality
+	// Dice.op_Inequality
+	// DiceThrower.op_Implicit
+	// DiceThrower.op_Equality
+	// DiceThrower.op_Inequality
+	// GameManager.op_Implicit
+	// GameManager.op_Equality
+	// GameManager.op_Inequality
+	// NetworkedObject.op_Implicit
+	// NetworkedObject.op_Equality
+	// NetworkedObject.op_Inequality
+	// ClientAuthNetworkTransform.op_Implicit
+	// ClientAuthNetworkTransform.op_Equality
+	// ClientAuthNetworkTransform.op_Inequality
+	// NetworkManagerUI.op_Implicit
+	// NetworkManagerUI.op_Equality
+	// NetworkManagerUI.op_Inequality
+	// NetworkManagerSetup.op_Implicit
+	// NetworkManagerSetup.op_Equality
+	// NetworkManagerSetup.op_Inequality
+	// PlaceObjectSpawner.op_Implicit
+	// PlaceObjectSpawner.op_Equality
+	// PlaceObjectSpawner.op_Inequality
+	// Player.op_Implicit
+	// Player.op_Equality
+	// Player.op_Inequality
+	// TouchInputHandler.op_Implicit
+	// TouchInputHandler.op_Equality
+	// TouchInputHandler.op_Inequality
+	// HighscoreTable.op_Implicit
+	// HighscoreTable.op_Equality
+	// HighscoreTable.op_Inequality
+	// UI_Blocker.op_Implicit
+	// UI_Blocker.op_Equality
+	// UI_Blocker.op_Inequality
+	// UI_InputWindow.op_Implicit
+	// UI_InputWindow.op_Equality
+	// UI_InputWindow.op_Inequality
+	// UI_Testing.op_Implicit
+	// UI_Testing.op_Equality
+	// UI_Testing.op_Inequality
+	// CodeMonkey.Assets.op_Implicit
+	// CodeMonkey.Assets.op_Equality
+	// CodeMonkey.Assets.op_Inequality
+	// CodeMonkey.Utils.Button_Sprite.op_Implicit
+	// CodeMonkey.Utils.Button_Sprite.op_Equality
+	// CodeMonkey.Utils.Button_Sprite.op_Inequality
+	// CodeMonkey.Utils.Button_UI.op_Implicit
+	// CodeMonkey.Utils.Button_UI.op_Equality
+	// CodeMonkey.Utils.Button_UI.op_Inequality
+	// CodeMonkey.MonoBehaviours.CameraFollow.op_Implicit
+	// CodeMonkey.MonoBehaviours.CameraFollow.op_Equality
+	// CodeMonkey.MonoBehaviours.CameraFollow.op_Inequality
+	// CodeMonkey.MonoBehaviours.CameraFollowSetup.op_Implicit
+	// CodeMonkey.MonoBehaviours.CameraFollowSetup.op_Equality
+	// CodeMonkey.MonoBehaviours.CameraFollowSetup.op_Inequality
+	// CodeMonkey.MonoBehaviours.ComponentActions.op_Implicit
+	// CodeMonkey.MonoBehaviours.ComponentActions.op_Equality
+	// CodeMonkey.MonoBehaviours.ComponentActions.op_Inequality
+	// CodeMonkey.MonoBehaviours.PositionRendererSorter.op_Implicit
+	// CodeMonkey.MonoBehaviours.PositionRendererSorter.op_Equality
+	// CodeMonkey.MonoBehaviours.PositionRendererSorter.op_Inequality
+	// UnityTemplateProjects.SimpleCameraControllerPortals.op_Implicit
+	// UnityTemplateProjects.SimpleCameraControllerPortals.op_Equality
+	// UnityTemplateProjects.SimpleCameraControllerPortals.op_Inequality
+	// Photon.Realtime.Demo.ConnectAndJoinRandomLb.op_Implicit
+	// Photon.Realtime.Demo.ConnectAndJoinRandomLb.op_Equality
+	// Photon.Realtime.Demo.ConnectAndJoinRandomLb.op_Inequality
+	// Photon.Chat.Demo.ChannelSelector.op_Implicit
+	// Photon.Chat.Demo.ChannelSelector.op_Equality
+	// Photon.Chat.Demo.ChannelSelector.op_Inequality
+	// Photon.Chat.Demo.ChatAppIdCheckerUI.op_Implicit
+	// Photon.Chat.Demo.ChatAppIdCheckerUI.op_Equality
+	// Photon.Chat.Demo.ChatAppIdCheckerUI.op_Inequality
+	// Photon.Chat.Demo.ChatGui.op_Implicit
+	// Photon.Chat.Demo.ChatGui.op_Equality
+	// Photon.Chat.Demo.ChatGui.op_Inequality
+	// Photon.Chat.Demo.FriendItem.op_Implicit
+	// Photon.Chat.Demo.FriendItem.op_Equality
+	// Photon.Chat.Demo.FriendItem.op_Inequality
+	// Photon.Chat.Demo.IgnoreUiRaycastWhenInactive.op_Implicit
+	// Photon.Chat.Demo.IgnoreUiRaycastWhenInactive.op_Equality
+	// Photon.Chat.Demo.IgnoreUiRaycastWhenInactive.op_Inequality
+	// Photon.Chat.Demo.NamePickGui.op_Implicit
+	// Photon.Chat.Demo.NamePickGui.op_Equality
+	// Photon.Chat.Demo.NamePickGui.op_Inequality
+	// Photon.Chat.UtilityScripts.EventSystemSpawner.op_Implicit
+	// Photon.Chat.UtilityScripts.EventSystemSpawner.op_Equality
+	// Photon.Chat.UtilityScripts.EventSystemSpawner.op_Inequality
+	// Photon.Chat.UtilityScripts.OnStartDelete.op_Implicit
+	// Photon.Chat.UtilityScripts.OnStartDelete.op_Equality
+	// Photon.Chat.UtilityScripts.OnStartDelete.op_Inequality
+	// Photon.Chat.UtilityScripts.TextButtonTransition.op_Implicit
+	// Photon.Chat.UtilityScripts.TextButtonTransition.op_Equality
+	// Photon.Chat.UtilityScripts.TextButtonTransition.op_Inequality
+	// Photon.Chat.UtilityScripts.TextToggleIsOnTransition.op_Implicit
+	// Photon.Chat.UtilityScripts.TextToggleIsOnTransition.op_Equality
+	// Photon.Chat.UtilityScripts.TextToggleIsOnTransition.op_Inequality
+	// LowPolyWater.LowPolyWater.op_Implicit
+	// LowPolyWater.LowPolyWater.op_Equality
+	// LowPolyWater.LowPolyWater.op_Inequality
+	// TMPro.TextContainer.op_Implicit
+	// TMPro.TextContainer.op_Equality
+	// TMPro.TextContainer.op_Inequality
+	// TMPro.TextMeshPro.op_Implicit
+	// TMPro.TextMeshPro.op_Equality
+	// TMPro.TextMeshPro.op_Inequality
+	// TMPro.TextMeshProUGUI.op_Implicit
+	// TMPro.TextMeshProUGUI.op_Equality
+	// TMPro.TextMeshProUGUI.op_Inequality
+	// TMPro.TMP_ColorGradient.op_Implicit
+	// TMPro.TMP_ColorGradient.op_Equality
+	// TMPro.TMP_ColorGradient.op_Inequality
+	// TMPro.TMP_Dropdown.op_Implicit
+	// TMPro.TMP_Dropdown.op_Equality
+	// TMPro.TMP_Dropdown.op_Inequality
+	// TMPro.TMP_FontAsset.op_Implicit
+	// TMPro.TMP_FontAsset.op_Equality
+	// TMPro.TMP_FontAsset.op_Inequality
+	// TMPro.TMP_InputField.op_Implicit
+	// TMPro.TMP_InputField.op_Equality
+	// TMPro.TMP_InputField.op_Inequality
+	// TMPro.TMP_PackageResourceImporterWindow.op_Implicit
+	// TMPro.TMP_PackageResourceImporterWindow.op_Equality
+	// TMPro.TMP_PackageResourceImporterWindow.op_Inequality
+	// TMPro.TMP_ScrollbarEventHandler.op_Implicit
+	// TMPro.TMP_ScrollbarEventHandler.op_Equality
+	// TMPro.TMP_ScrollbarEventHandler.op_Inequality
+	// TMPro.TMP_SelectionCaret.op_Implicit
+	// TMPro.TMP_SelectionCaret.op_Equality
+	// TMPro.TMP_SelectionCaret.op_Inequality
+	// TMPro.TMP_Settings.op_Implicit
+	// TMPro.TMP_Settings.op_Equality
+	// TMPro.TMP_Settings.op_Inequality
+	// TMPro.TMP_SpriteAnimator.op_Implicit
+	// TMPro.TMP_SpriteAnimator.op_Equality
+	// TMPro.TMP_SpriteAnimator.op_Inequality
+	// TMPro.TMP_SpriteAsset.op_Implicit
+	// TMPro.TMP_SpriteAsset.op_Equality
+	// TMPro.TMP_SpriteAsset.op_Inequality
+	// TMPro.TMP_StyleSheet.op_Implicit
+	// TMPro.TMP_StyleSheet.op_Equality
+	// TMPro.TMP_StyleSheet.op_Inequality
+	// TMPro.TMP_SubMesh.op_Implicit
+	// TMPro.TMP_SubMesh.op_Equality
+	// TMPro.TMP_SubMesh.op_Inequality
+	// TMPro.TMP_SubMeshUI.op_Implicit
+	// TMPro.TMP_SubMeshUI.op_Equality
+	// TMPro.TMP_SubMeshUI.op_Inequality
+	// Unity.VisualScripting.StateGraphAsset.op_Implicit
+	// Unity.VisualScripting.StateGraphAsset.op_Equality
+	// Unity.VisualScripting.StateGraphAsset.op_Inequality
+	// Unity.VisualScripting.StateMachine.op_Implicit
+	// Unity.VisualScripting.StateMachine.op_Equality
+	// Unity.VisualScripting.StateMachine.op_Inequality
+	// Unity.VisualScripting.ScriptGraphAsset.op_Implicit
+	// Unity.VisualScripting.ScriptGraphAsset.op_Equality
+	// Unity.VisualScripting.ScriptGraphAsset.op_Inequality
+	// Unity.VisualScripting.ScriptMachine.op_Implicit
+	// Unity.VisualScripting.ScriptMachine.op_Equality
+	// Unity.VisualScripting.ScriptMachine.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARAnchor.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARAnchor.op_Equality
+	// UnityEngine.XR.ARFoundation.ARAnchor.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Equality
+	// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Equality
+	// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARCameraManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARCameraManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARCameraManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARDebugMenu.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARDebugMenu.op_Equality
+	// UnityEngine.XR.ARFoundation.ARDebugMenu.op_Inequality
+	// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Implicit
+	// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Equality
+	// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Inequality
+	// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Equality
+	// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARFace.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARFace.op_Equality
+	// UnityEngine.XR.ARFoundation.ARFace.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARFaceManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARFaceManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARFaceManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Equality
+	// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARHumanBody.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARHumanBody.op_Equality
+	// UnityEngine.XR.ARFoundation.ARHumanBody.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARInputManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARInputManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARInputManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARMeshManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARMeshManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARMeshManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Equality
+	// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARParticipant.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARParticipant.op_Equality
+	// UnityEngine.XR.ARFoundation.ARParticipant.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARPlane.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARPlane.op_Equality
+	// UnityEngine.XR.ARFoundation.ARPlane.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Equality
+	// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARPointCloud.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARPointCloud.op_Equality
+	// UnityEngine.XR.ARFoundation.ARPointCloud.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Equality
+	// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Equality
+	// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARRaycast.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARRaycast.op_Equality
+	// UnityEngine.XR.ARFoundation.ARRaycast.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARSession.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARSession.op_Equality
+	// UnityEngine.XR.ARFoundation.ARSession.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Equality
+	// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Equality
+	// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Inequality
+	// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Implicit
+	// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Equality
+	// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Inequality
+	// UnityEngine.XR.ARFoundation.DebugSlider.op_Implicit
+	// UnityEngine.XR.ARFoundation.DebugSlider.op_Equality
+	// UnityEngine.XR.ARFoundation.DebugSlider.op_Inequality
+	// UnityEngine.XR.ARFoundation.ToolButton.op_Implicit
+	// UnityEngine.XR.ARFoundation.ToolButton.op_Equality
+	// UnityEngine.XR.ARFoundation.ToolButton.op_Inequality
+	// TimelinePreferences.op_Implicit
+	// TimelinePreferences.op_Equality
+	// TimelinePreferences.op_Inequality
+	// TimelineProjectSettings.op_Implicit
+	// TimelineProjectSettings.op_Equality
+	// TimelineProjectSettings.op_Inequality
+	// Unity.VisualScripting.AnimatorMessageListener.op_Implicit
+	// Unity.VisualScripting.AnimatorMessageListener.op_Equality
+	// Unity.VisualScripting.AnimatorMessageListener.op_Inequality
+	// Unity.VisualScripting.MacroScriptableObject.op_Implicit
+	// Unity.VisualScripting.MacroScriptableObject.op_Equality
+	// Unity.VisualScripting.MacroScriptableObject.op_Inequality
+	// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Implicit
+	// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Equality
+	// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Inequality
 	// UnityEngine.UI.Button.op_Implicit
 	// UnityEngine.UI.Button.op_Equality
 	// UnityEngine.UI.Button.op_Inequality
@@ -723,9 +1004,6 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.EventSystems.PhysicsRaycaster.op_Implicit
 	// UnityEngine.EventSystems.PhysicsRaycaster.op_Equality
 	// UnityEngine.EventSystems.PhysicsRaycaster.op_Inequality
-	// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Implicit
-	// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Equality
-	// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Inequality
 	// UnityEngine.Timeline.ActivationTrack.op_Implicit
 	// UnityEngine.Timeline.ActivationTrack.op_Equality
 	// UnityEngine.Timeline.ActivationTrack.op_Inequality
@@ -771,177 +1049,46 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.Timeline.PlayableTrack.op_Implicit
 	// UnityEngine.Timeline.PlayableTrack.op_Equality
 	// UnityEngine.Timeline.PlayableTrack.op_Inequality
-	// TMPro.TextContainer.op_Implicit
-	// TMPro.TextContainer.op_Equality
-	// TMPro.TextContainer.op_Inequality
-	// TMPro.TextMeshPro.op_Implicit
-	// TMPro.TextMeshPro.op_Equality
-	// TMPro.TextMeshPro.op_Inequality
-	// TMPro.TextMeshProUGUI.op_Implicit
-	// TMPro.TextMeshProUGUI.op_Equality
-	// TMPro.TextMeshProUGUI.op_Inequality
-	// TMPro.TMP_ColorGradient.op_Implicit
-	// TMPro.TMP_ColorGradient.op_Equality
-	// TMPro.TMP_ColorGradient.op_Inequality
-	// TMPro.TMP_Dropdown.op_Implicit
-	// TMPro.TMP_Dropdown.op_Equality
-	// TMPro.TMP_Dropdown.op_Inequality
-	// TMPro.TMP_FontAsset.op_Implicit
-	// TMPro.TMP_FontAsset.op_Equality
-	// TMPro.TMP_FontAsset.op_Inequality
-	// TMPro.TMP_InputField.op_Implicit
-	// TMPro.TMP_InputField.op_Equality
-	// TMPro.TMP_InputField.op_Inequality
-	// TMPro.TMP_PackageResourceImporterWindow.op_Implicit
-	// TMPro.TMP_PackageResourceImporterWindow.op_Equality
-	// TMPro.TMP_PackageResourceImporterWindow.op_Inequality
-	// TMPro.TMP_ScrollbarEventHandler.op_Implicit
-	// TMPro.TMP_ScrollbarEventHandler.op_Equality
-	// TMPro.TMP_ScrollbarEventHandler.op_Inequality
-	// TMPro.TMP_SelectionCaret.op_Implicit
-	// TMPro.TMP_SelectionCaret.op_Equality
-	// TMPro.TMP_SelectionCaret.op_Inequality
-	// TMPro.TMP_Settings.op_Implicit
-	// TMPro.TMP_Settings.op_Equality
-	// TMPro.TMP_Settings.op_Inequality
-	// TMPro.TMP_SpriteAnimator.op_Implicit
-	// TMPro.TMP_SpriteAnimator.op_Equality
-	// TMPro.TMP_SpriteAnimator.op_Inequality
-	// TMPro.TMP_SpriteAsset.op_Implicit
-	// TMPro.TMP_SpriteAsset.op_Equality
-	// TMPro.TMP_SpriteAsset.op_Inequality
-	// TMPro.TMP_StyleSheet.op_Implicit
-	// TMPro.TMP_StyleSheet.op_Equality
-	// TMPro.TMP_StyleSheet.op_Inequality
-	// TMPro.TMP_SubMesh.op_Implicit
-	// TMPro.TMP_SubMesh.op_Equality
-	// TMPro.TMP_SubMesh.op_Inequality
-	// TMPro.TMP_SubMeshUI.op_Implicit
-	// TMPro.TMP_SubMeshUI.op_Equality
-	// TMPro.TMP_SubMeshUI.op_Inequality
-	// Unity.VisualScripting.ScriptGraphAsset.op_Implicit
-	// Unity.VisualScripting.ScriptGraphAsset.op_Equality
-	// Unity.VisualScripting.ScriptGraphAsset.op_Inequality
-	// Unity.VisualScripting.ScriptMachine.op_Implicit
-	// Unity.VisualScripting.ScriptMachine.op_Equality
-	// Unity.VisualScripting.ScriptMachine.op_Inequality
-	// Unity.VisualScripting.AnimatorMessageListener.op_Implicit
-	// Unity.VisualScripting.AnimatorMessageListener.op_Equality
-	// Unity.VisualScripting.AnimatorMessageListener.op_Inequality
-	// Unity.VisualScripting.MacroScriptableObject.op_Implicit
-	// Unity.VisualScripting.MacroScriptableObject.op_Equality
-	// Unity.VisualScripting.MacroScriptableObject.op_Inequality
-	// TimelinePreferences.op_Implicit
-	// TimelinePreferences.op_Equality
-	// TimelinePreferences.op_Inequality
-	// TimelineProjectSettings.op_Implicit
-	// TimelineProjectSettings.op_Equality
-	// TimelineProjectSettings.op_Inequality
-	// Unity.VisualScripting.StateGraphAsset.op_Implicit
-	// Unity.VisualScripting.StateGraphAsset.op_Equality
-	// Unity.VisualScripting.StateGraphAsset.op_Inequality
-	// Unity.VisualScripting.StateMachine.op_Implicit
-	// Unity.VisualScripting.StateMachine.op_Equality
-	// Unity.VisualScripting.StateMachine.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARAnchor.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARAnchor.op_Equality
-	// UnityEngine.XR.ARFoundation.ARAnchor.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Equality
-	// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Equality
-	// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARCameraManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARCameraManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARCameraManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Implicit
-	// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Equality
-	// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Inequality
-	// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Equality
-	// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARFace.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARFace.op_Equality
-	// UnityEngine.XR.ARFoundation.ARFace.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARFaceManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARFaceManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARFaceManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Equality
-	// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARHumanBody.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARHumanBody.op_Equality
-	// UnityEngine.XR.ARFoundation.ARHumanBody.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARInputManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARInputManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARInputManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARMeshManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARMeshManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARMeshManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Equality
-	// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARParticipant.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARParticipant.op_Equality
-	// UnityEngine.XR.ARFoundation.ARParticipant.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARPlane.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARPlane.op_Equality
-	// UnityEngine.XR.ARFoundation.ARPlane.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Equality
-	// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARPointCloud.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARPointCloud.op_Equality
-	// UnityEngine.XR.ARFoundation.ARPointCloud.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Equality
-	// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Equality
-	// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARPoseDriver.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARPoseDriver.op_Equality
-	// UnityEngine.XR.ARFoundation.ARPoseDriver.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARRaycast.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARRaycast.op_Equality
-	// UnityEngine.XR.ARFoundation.ARRaycast.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARSession.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARSession.op_Equality
-	// UnityEngine.XR.ARFoundation.ARSession.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARSessionOrigin.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARSessionOrigin.op_Equality
-	// UnityEngine.XR.ARFoundation.ARSessionOrigin.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Equality
-	// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Equality
-	// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Inequality
-	// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Implicit
-	// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Equality
-	// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Inequality
+	// UnityEngine.InputSystem.InputActionAsset.op_Implicit
+	// UnityEngine.InputSystem.InputActionAsset.op_Equality
+	// UnityEngine.InputSystem.InputActionAsset.op_Inequality
+	// UnityEngine.InputSystem.InputActionReference.op_Implicit
+	// UnityEngine.InputSystem.InputActionReference.op_Implicit
+	// UnityEngine.InputSystem.InputActionReference.op_Equality
+	// UnityEngine.InputSystem.InputActionReference.op_Inequality
+	// UnityEngine.InputSystem.InputSettings.op_Implicit
+	// UnityEngine.InputSystem.InputSettings.op_Equality
+	// UnityEngine.InputSystem.InputSettings.op_Inequality
+	// UnityEngine.InputSystem.PlayerInput.op_Implicit
+	// UnityEngine.InputSystem.PlayerInput.op_Equality
+	// UnityEngine.InputSystem.PlayerInput.op_Inequality
+	// UnityEngine.InputSystem.PlayerInputManager.op_Implicit
+	// UnityEngine.InputSystem.PlayerInputManager.op_Equality
+	// UnityEngine.InputSystem.PlayerInputManager.op_Inequality
+	// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Implicit
+	// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Equality
+	// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Inequality
+	// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Implicit
+	// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Equality
+	// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Inequality
+	// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Implicit
+	// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Equality
+	// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Inequality
+	// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Implicit
+	// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Equality
+	// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Inequality
+	// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Implicit
+	// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Equality
+	// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Inequality
+	// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Implicit
+	// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Equality
+	// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Inequality
+	// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Implicit
+	// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Equality
+	// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Inequality
+	// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Implicit
+	// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Equality
+	// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Inequality
 	// --------------- Plugin Stubs
 	// --------------- Asset Stubs
 	// UnityEngine.GameObject.FindObjectOfType
@@ -957,9 +1104,13 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.GameObject.Instantiate
 	// --------------- Scene Stubs
 	// --------------- Scene Stubs
+	// --------------- Scene Stubs
+	// --------------- Scene Stubs
 	// UnityEngine.XR.ARFoundation.ARRaycastManager..ctor
 	// Unity.VisualScripting.AotList..ctor
 	// UnityEngine.XR.ARFoundation.ARPlaneManager..ctor
+	// --------------- Scene Stubs
+	// --------------- Scene Stubs
 	[UnityEngine.Scripting.PreserveAttribute()]
 	public class AotStubs
 	{
@@ -7235,41 +7386,6 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.UIElements.VectorImage.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_UIElements_VectorImage_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.UIElements.VectorImage.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_UIElements_VectorImage_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.UIElements.VectorImage.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_UIElements_VectorImage_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
 		// UnityEngine.UIElements.PanelSettings.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_UIElements_PanelSettings_op_Implicit()
@@ -7480,6 +7596,41 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// UnityEngine.UIElements.VectorImage.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_UIElements_VectorImage_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.UIElements.VectorImage.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_UIElements_VectorImage_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.UIElements.VectorImage.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_UIElements_VectorImage_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
 		// UnityEngine.WheelCollider.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_WheelCollider_op_Implicit()
@@ -7620,9 +7771,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.InputActionAsset.op_Implicit
+		// csDestroyEffect.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_InputActionAsset_op_Implicit()
+		public static void csDestroyEffect_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -7631,9 +7782,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.InputActionAsset.op_Equality
+		// csDestroyEffect.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_InputActionAsset_op_Equality()
+		public static void csDestroyEffect_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7643,9 +7794,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.InputActionAsset.op_Inequality
+		// csDestroyEffect.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_InputActionAsset_op_Inequality()
+		public static void csDestroyEffect_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7655,20 +7806,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.InputActionReference.op_Implicit
+		// csMouseOrbit.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_InputActionReference_op_Implicit()
-		{
-			global::UnityEngine.InputSystem.InputActionReference arg0 = default(global::UnityEngine.InputSystem.InputActionReference);
-			UnityEngine.InputSystem.InputAction conversion = ((UnityEngine.InputSystem.InputAction)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.InputSystem.InputActionReference, UnityEngine.InputSystem.InputAction> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.InputSystem.InputActionReference, UnityEngine.InputSystem.InputAction>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.InputSystem.InputActionReference.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_InputActionReference_op_Implicit_0()
+		public static void csMouseOrbit_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -7677,9 +7817,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.InputActionReference.op_Equality
+		// csMouseOrbit.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_InputActionReference_op_Equality()
+		public static void csMouseOrbit_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7689,9 +7829,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.InputActionReference.op_Inequality
+		// csMouseOrbit.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_InputActionReference_op_Inequality()
+		public static void csMouseOrbit_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7701,9 +7841,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.InputSettings.op_Implicit
+		// csParticleEffectPackLightControl.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_InputSettings_op_Implicit()
+		public static void csParticleEffectPackLightControl_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -7712,9 +7852,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.InputSettings.op_Equality
+		// csParticleEffectPackLightControl.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_InputSettings_op_Equality()
+		public static void csParticleEffectPackLightControl_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7724,9 +7864,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.InputSettings.op_Inequality
+		// csParticleEffectPackLightControl.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_InputSettings_op_Inequality()
+		public static void csParticleEffectPackLightControl_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7736,9 +7876,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.PlayerInput.op_Implicit
+		// csParticleMove.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_PlayerInput_op_Implicit()
+		public static void csParticleMove_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -7747,9 +7887,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.PlayerInput.op_Equality
+		// csParticleMove.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_PlayerInput_op_Equality()
+		public static void csParticleMove_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7759,9 +7899,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.PlayerInput.op_Inequality
+		// csParticleMove.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_PlayerInput_op_Inequality()
+		public static void csParticleMove_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7771,9 +7911,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.PlayerInputManager.op_Implicit
+		// csShowAllEffect.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_PlayerInputManager_op_Implicit()
+		public static void csShowAllEffect_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -7782,9 +7922,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.PlayerInputManager.op_Equality
+		// csShowAllEffect.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_PlayerInputManager_op_Equality()
+		public static void csShowAllEffect_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7794,9 +7934,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.PlayerInputManager.op_Inequality
+		// csShowAllEffect.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_PlayerInputManager_op_Inequality()
+		public static void csShowAllEffect_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7806,9 +7946,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Implicit
+		// AnchorCreator.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_XR_TrackedPoseDriver_op_Implicit()
+		public static void AnchorCreator_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -7817,9 +7957,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Equality
+		// AnchorCreator.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_XR_TrackedPoseDriver_op_Equality()
+		public static void AnchorCreator_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7829,9 +7969,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Inequality
+		// AnchorCreator.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_XR_TrackedPoseDriver_op_Inequality()
+		public static void AnchorCreator_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7841,9 +7981,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Implicit
+		// ARFeatheredPlaneMeshVisualizer.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_InputSystemUIInputModule_op_Implicit()
+		public static void ARFeatheredPlaneMeshVisualizer_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -7852,9 +7992,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Equality
+		// ARFeatheredPlaneMeshVisualizer.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_InputSystemUIInputModule_op_Equality()
+		public static void ARFeatheredPlaneMeshVisualizer_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7864,9 +8004,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Inequality
+		// ARFeatheredPlaneMeshVisualizer.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_InputSystemUIInputModule_op_Inequality()
+		public static void ARFeatheredPlaneMeshVisualizer_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7876,9 +8016,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Implicit
+		// NetworkARObject.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_MultiplayerEventSystem_op_Implicit()
+		public static void NetworkARObject_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -7887,9 +8027,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Equality
+		// NetworkARObject.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_MultiplayerEventSystem_op_Equality()
+		public static void NetworkARObject_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7899,9 +8039,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Inequality
+		// NetworkARObject.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_MultiplayerEventSystem_op_Inequality()
+		public static void NetworkARObject_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7911,9 +8051,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Implicit
+		// PhotonManager.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_TrackedDeviceRaycaster_op_Implicit()
+		public static void PhotonManager_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -7922,9 +8062,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Equality
+		// PhotonManager.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_TrackedDeviceRaycaster_op_Equality()
+		public static void PhotonManager_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7934,9 +8074,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Inequality
+		// PhotonManager.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_TrackedDeviceRaycaster_op_Inequality()
+		public static void PhotonManager_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7946,9 +8086,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Implicit
+		// ARManager.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_VirtualMouseInput_op_Implicit()
+		public static void ARManager_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -7957,9 +8097,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Equality
+		// ARManager.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_VirtualMouseInput_op_Equality()
+		public static void ARManager_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7969,9 +8109,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Inequality
+		// ARManager.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_UI_VirtualMouseInput_op_Inequality()
+		public static void ARManager_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -7981,9 +8121,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Implicit
+		// QuirkySeriesDemo.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_OnScreen_OnScreenButton_op_Implicit()
+		public static void QuirkySeriesDemo_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -7992,9 +8132,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Equality
+		// QuirkySeriesDemo.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_OnScreen_OnScreenButton_op_Equality()
+		public static void QuirkySeriesDemo_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -8004,9 +8144,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Inequality
+		// QuirkySeriesDemo.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_OnScreen_OnScreenButton_op_Inequality()
+		public static void QuirkySeriesDemo_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -8016,9 +8156,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Implicit
+		// RotateOnScroll.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_OnScreen_OnScreenStick_op_Implicit()
+		public static void RotateOnScroll_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -8027,9 +8167,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Equality
+		// RotateOnScroll.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_OnScreen_OnScreenStick_op_Equality()
+		public static void RotateOnScroll_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -8039,9 +8179,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Inequality
+		// RotateOnScroll.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_OnScreen_OnScreenStick_op_Inequality()
+		public static void RotateOnScroll_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -8051,9 +8191,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Implicit
+		// RoomManager.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_EnhancedTouch_TouchSimulation_op_Implicit()
+		public static void RoomManager_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -8062,9 +8202,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Equality
+		// RoomManager.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_EnhancedTouch_TouchSimulation_op_Equality()
+		public static void RoomManager_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -8074,9 +8214,3299 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Inequality
+		// RoomManager.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_InputSystem_EnhancedTouch_TouchSimulation_op_Inequality()
+		public static void RoomManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// ARObjectPlacer.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void ARObjectPlacer_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// ARObjectPlacer.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void ARObjectPlacer_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// ARObjectPlacer.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void ARObjectPlacer_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Dice.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Dice_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Dice.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Dice_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Dice.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Dice_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// DiceThrower.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void DiceThrower_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// DiceThrower.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void DiceThrower_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// DiceThrower.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void DiceThrower_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// GameManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void GameManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// GameManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void GameManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// GameManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void GameManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// NetworkedObject.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void NetworkedObject_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// NetworkedObject.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void NetworkedObject_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// NetworkedObject.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void NetworkedObject_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// ClientAuthNetworkTransform.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void ClientAuthNetworkTransform_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// ClientAuthNetworkTransform.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void ClientAuthNetworkTransform_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// ClientAuthNetworkTransform.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void ClientAuthNetworkTransform_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// NetworkManagerUI.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void NetworkManagerUI_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// NetworkManagerUI.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void NetworkManagerUI_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// NetworkManagerUI.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void NetworkManagerUI_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// NetworkManagerSetup.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void NetworkManagerSetup_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// NetworkManagerSetup.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void NetworkManagerSetup_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// NetworkManagerSetup.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void NetworkManagerSetup_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// PlaceObjectSpawner.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void PlaceObjectSpawner_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// PlaceObjectSpawner.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void PlaceObjectSpawner_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// PlaceObjectSpawner.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void PlaceObjectSpawner_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Player.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Player_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Player.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Player_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Player.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Player_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TouchInputHandler.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TouchInputHandler_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TouchInputHandler.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TouchInputHandler_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TouchInputHandler.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TouchInputHandler_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// HighscoreTable.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void HighscoreTable_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// HighscoreTable.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void HighscoreTable_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// HighscoreTable.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void HighscoreTable_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UI_Blocker.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UI_Blocker_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UI_Blocker.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UI_Blocker_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UI_Blocker.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UI_Blocker_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UI_InputWindow.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UI_InputWindow_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UI_InputWindow.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UI_InputWindow_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UI_InputWindow.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UI_InputWindow_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UI_Testing.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UI_Testing_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UI_Testing.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UI_Testing_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UI_Testing.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UI_Testing_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.Assets.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_Assets_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.Assets.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_Assets_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.Assets.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_Assets_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.Utils.Button_Sprite.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_Utils_Button_Sprite_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.Utils.Button_Sprite.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_Utils_Button_Sprite_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.Utils.Button_Sprite.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_Utils_Button_Sprite_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.Utils.Button_UI.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_Utils_Button_UI_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.Utils.Button_UI.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_Utils_Button_UI_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.Utils.Button_UI.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_Utils_Button_UI_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.CameraFollow.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_CameraFollow_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.CameraFollow.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_CameraFollow_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.CameraFollow.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_CameraFollow_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.CameraFollowSetup.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_CameraFollowSetup_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.CameraFollowSetup.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_CameraFollowSetup_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.CameraFollowSetup.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_CameraFollowSetup_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.ComponentActions.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_ComponentActions_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.ComponentActions.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_ComponentActions_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.ComponentActions.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_ComponentActions_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.PositionRendererSorter.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_PositionRendererSorter_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.PositionRendererSorter.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_PositionRendererSorter_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// CodeMonkey.MonoBehaviours.PositionRendererSorter.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void CodeMonkey_MonoBehaviours_PositionRendererSorter_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityTemplateProjects.SimpleCameraControllerPortals.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityTemplateProjects_SimpleCameraControllerPortals_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityTemplateProjects.SimpleCameraControllerPortals.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityTemplateProjects_SimpleCameraControllerPortals_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityTemplateProjects.SimpleCameraControllerPortals.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityTemplateProjects_SimpleCameraControllerPortals_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Realtime.Demo.ConnectAndJoinRandomLb.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Realtime_Demo_ConnectAndJoinRandomLb_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Realtime.Demo.ConnectAndJoinRandomLb.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Realtime_Demo_ConnectAndJoinRandomLb_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Realtime.Demo.ConnectAndJoinRandomLb.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Realtime_Demo_ConnectAndJoinRandomLb_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.ChannelSelector.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_ChannelSelector_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.ChannelSelector.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_ChannelSelector_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.ChannelSelector.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_ChannelSelector_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.ChatAppIdCheckerUI.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_ChatAppIdCheckerUI_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.ChatAppIdCheckerUI.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_ChatAppIdCheckerUI_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.ChatAppIdCheckerUI.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_ChatAppIdCheckerUI_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.ChatGui.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_ChatGui_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.ChatGui.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_ChatGui_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.ChatGui.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_ChatGui_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.FriendItem.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_FriendItem_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.FriendItem.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_FriendItem_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.FriendItem.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_FriendItem_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.IgnoreUiRaycastWhenInactive.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_IgnoreUiRaycastWhenInactive_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.IgnoreUiRaycastWhenInactive.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_IgnoreUiRaycastWhenInactive_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.IgnoreUiRaycastWhenInactive.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_IgnoreUiRaycastWhenInactive_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.NamePickGui.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_NamePickGui_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.NamePickGui.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_NamePickGui_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.Demo.NamePickGui.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_Demo_NamePickGui_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.EventSystemSpawner.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_EventSystemSpawner_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.EventSystemSpawner.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_EventSystemSpawner_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.EventSystemSpawner.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_EventSystemSpawner_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.OnStartDelete.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_OnStartDelete_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.OnStartDelete.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_OnStartDelete_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.OnStartDelete.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_OnStartDelete_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.TextButtonTransition.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_TextButtonTransition_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.TextButtonTransition.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_TextButtonTransition_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.TextButtonTransition.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_TextButtonTransition_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.TextToggleIsOnTransition.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_TextToggleIsOnTransition_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.TextToggleIsOnTransition.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_TextToggleIsOnTransition_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Photon.Chat.UtilityScripts.TextToggleIsOnTransition.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Photon_Chat_UtilityScripts_TextToggleIsOnTransition_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// LowPolyWater.LowPolyWater.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void LowPolyWater_LowPolyWater_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// LowPolyWater.LowPolyWater.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void LowPolyWater_LowPolyWater_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// LowPolyWater.LowPolyWater.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void LowPolyWater_LowPolyWater_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TextContainer.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextContainer_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TextContainer.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextContainer_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TextContainer.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextContainer_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TextMeshPro.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextMeshPro_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TextMeshPro.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextMeshPro_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TextMeshPro.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextMeshPro_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TextMeshProUGUI.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextMeshProUGUI_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TextMeshProUGUI.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextMeshProUGUI_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TextMeshProUGUI.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TextMeshProUGUI_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_ColorGradient.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_ColorGradient_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_ColorGradient.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_ColorGradient_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_ColorGradient.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_ColorGradient_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_Dropdown.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_Dropdown_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_Dropdown.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_Dropdown_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_Dropdown.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_Dropdown_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_FontAsset.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_FontAsset_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_FontAsset.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_FontAsset_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_FontAsset.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_FontAsset_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_InputField.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_InputField_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_InputField.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_InputField_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_InputField.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_InputField_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_PackageResourceImporterWindow.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_PackageResourceImporterWindow_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_PackageResourceImporterWindow.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_PackageResourceImporterWindow_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_PackageResourceImporterWindow.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_PackageResourceImporterWindow_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_ScrollbarEventHandler.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_ScrollbarEventHandler_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_ScrollbarEventHandler.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_ScrollbarEventHandler_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_ScrollbarEventHandler.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_ScrollbarEventHandler_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SelectionCaret.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SelectionCaret_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SelectionCaret.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SelectionCaret_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SelectionCaret.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SelectionCaret_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_Settings.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_Settings_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_Settings.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_Settings_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_Settings.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_Settings_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SpriteAnimator.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SpriteAnimator_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SpriteAnimator.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SpriteAnimator_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SpriteAnimator.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SpriteAnimator_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SpriteAsset.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SpriteAsset_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SpriteAsset.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SpriteAsset_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SpriteAsset.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SpriteAsset_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_StyleSheet.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_StyleSheet_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_StyleSheet.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_StyleSheet_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_StyleSheet.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_StyleSheet_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SubMesh.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SubMesh_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SubMesh.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SubMesh_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SubMesh.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SubMesh_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SubMeshUI.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SubMeshUI_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SubMeshUI.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SubMeshUI_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TMPro.TMP_SubMeshUI.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TMPro_TMP_SubMeshUI_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.StateGraphAsset.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_StateGraphAsset_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.StateGraphAsset.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_StateGraphAsset_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.StateGraphAsset.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_StateGraphAsset_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.StateMachine.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_StateMachine_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.StateMachine.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_StateMachine_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.StateMachine.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_StateMachine_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.ScriptGraphAsset.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_ScriptGraphAsset_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.ScriptGraphAsset.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_ScriptGraphAsset_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.ScriptGraphAsset.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_ScriptGraphAsset_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.ScriptMachine.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_ScriptMachine_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.ScriptMachine.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_ScriptMachine_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.ScriptMachine.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_ScriptMachine_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARAnchor.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARAnchor_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARAnchor.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARAnchor_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARAnchor.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARAnchor_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARAnchorManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARAnchorManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARAnchorManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARBackgroundRendererFeature_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARBackgroundRendererFeature_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARBackgroundRendererFeature_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARCameraBackground_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARCameraBackground_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARCameraBackground_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARCameraManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARCameraManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARCameraManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARCameraManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARCameraManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARCameraManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARDebugMenu.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARDebugMenu_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARDebugMenu.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARDebugMenu_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARDebugMenu.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARDebugMenu_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbe_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbe_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbe_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbeManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbeManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbeManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARFace.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARFace_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARFace.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARFace_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARFace.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARFace_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARFaceManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARFaceManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARFaceManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARFaceManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARFaceManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARFaceManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARFaceMeshVisualizer_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARFaceMeshVisualizer_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARFaceMeshVisualizer_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARHumanBody.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARHumanBody_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARHumanBody.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARHumanBody_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARHumanBody.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARHumanBody_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARHumanBodyManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARHumanBodyManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARHumanBodyManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARInputManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARInputManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARInputManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARInputManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARInputManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARInputManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARMeshManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARMeshManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARMeshManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARMeshManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARMeshManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARMeshManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_AROcclusionManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_AROcclusionManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_AROcclusionManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARParticipant.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARParticipant_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARParticipant.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARParticipant_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARParticipant.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARParticipant_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARParticipantManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARParticipantManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARParticipantManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPlane.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPlane_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPlane.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPlane_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPlane.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPlane_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPlaneManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPlaneManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPlaneManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPlaneMeshVisualizer_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPlaneMeshVisualizer_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPlaneMeshVisualizer_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloud.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloud_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloud.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloud_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloud.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloud_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloudManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloudManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloudManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloudMeshVisualizer_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloudMeshVisualizer_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloudMeshVisualizer_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloudParticleVisualizer_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloudParticleVisualizer_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARPointCloudParticleVisualizer_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARRaycast.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARRaycast_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARRaycast.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARRaycast_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARRaycast.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARRaycast_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARRaycastManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARRaycastManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARRaycastManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARSession.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARSession_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARSession.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARSession_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARSession.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARSession_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedImage_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedImage_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedImage_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedImageManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedImageManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedImageManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedObject_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedObject_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedObject_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedObjectManager_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedObjectManager_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ARTrackedObjectManager_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.DebugSlider.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_DebugSlider_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.DebugSlider.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_DebugSlider_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.DebugSlider.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_DebugSlider_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ToolButton.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ToolButton_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ToolButton.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ToolButton_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.XR.ARFoundation.ToolButton.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_XR_ARFoundation_ToolButton_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TimelinePreferences.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TimelinePreferences_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TimelinePreferences.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TimelinePreferences_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TimelinePreferences.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TimelinePreferences_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TimelineProjectSettings.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TimelineProjectSettings_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TimelineProjectSettings.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TimelineProjectSettings_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// TimelineProjectSettings.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void TimelineProjectSettings_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.AnimatorMessageListener.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_AnimatorMessageListener_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.AnimatorMessageListener.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_AnimatorMessageListener_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.AnimatorMessageListener.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_AnimatorMessageListener_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.MacroScriptableObject.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_MacroScriptableObject_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.MacroScriptableObject.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_MacroScriptableObject_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// Unity.VisualScripting.MacroScriptableObject.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void Unity_VisualScripting_MacroScriptableObject_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_SpatialTracking_TrackedPoseDriver_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_SpatialTracking_TrackedPoseDriver_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_SpatialTracking_TrackedPoseDriver_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9241,41 +12671,6 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_SpatialTracking_TrackedPoseDriver_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_SpatialTracking_TrackedPoseDriver_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.SpatialTracking.TrackedPoseDriver.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_SpatialTracking_TrackedPoseDriver_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
 		// UnityEngine.Timeline.ActivationTrack.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_Timeline_ActivationTrack_op_Implicit()
@@ -9801,9 +13196,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TextContainer.op_Implicit
+		// UnityEngine.InputSystem.InputActionAsset.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TextContainer_op_Implicit()
+		public static void UnityEngine_InputSystem_InputActionAsset_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -9812,9 +13207,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TextContainer.op_Equality
+		// UnityEngine.InputSystem.InputActionAsset.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TextContainer_op_Equality()
+		public static void UnityEngine_InputSystem_InputActionAsset_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9824,9 +13219,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TextContainer.op_Inequality
+		// UnityEngine.InputSystem.InputActionAsset.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TextContainer_op_Inequality()
+		public static void UnityEngine_InputSystem_InputActionAsset_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9836,9 +13231,20 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TextMeshPro.op_Implicit
+		// UnityEngine.InputSystem.InputActionReference.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TextMeshPro_op_Implicit()
+		public static void UnityEngine_InputSystem_InputActionReference_op_Implicit()
+		{
+			global::UnityEngine.InputSystem.InputActionReference arg0 = default(global::UnityEngine.InputSystem.InputActionReference);
+			UnityEngine.InputSystem.InputAction conversion = ((UnityEngine.InputSystem.InputAction)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.InputSystem.InputActionReference, UnityEngine.InputSystem.InputAction> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.InputSystem.InputActionReference, UnityEngine.InputSystem.InputAction>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.InputSystem.InputActionReference.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_InputSystem_InputActionReference_op_Implicit_0()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -9847,9 +13253,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TextMeshPro.op_Equality
+		// UnityEngine.InputSystem.InputActionReference.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TextMeshPro_op_Equality()
+		public static void UnityEngine_InputSystem_InputActionReference_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9859,9 +13265,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TextMeshPro.op_Inequality
+		// UnityEngine.InputSystem.InputActionReference.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TextMeshPro_op_Inequality()
+		public static void UnityEngine_InputSystem_InputActionReference_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9871,9 +13277,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TextMeshProUGUI.op_Implicit
+		// UnityEngine.InputSystem.InputSettings.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TextMeshProUGUI_op_Implicit()
+		public static void UnityEngine_InputSystem_InputSettings_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -9882,9 +13288,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TextMeshProUGUI.op_Equality
+		// UnityEngine.InputSystem.InputSettings.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TextMeshProUGUI_op_Equality()
+		public static void UnityEngine_InputSystem_InputSettings_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9894,9 +13300,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TextMeshProUGUI.op_Inequality
+		// UnityEngine.InputSystem.InputSettings.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TextMeshProUGUI_op_Inequality()
+		public static void UnityEngine_InputSystem_InputSettings_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9906,9 +13312,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_ColorGradient.op_Implicit
+		// UnityEngine.InputSystem.PlayerInput.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_ColorGradient_op_Implicit()
+		public static void UnityEngine_InputSystem_PlayerInput_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -9917,9 +13323,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_ColorGradient.op_Equality
+		// UnityEngine.InputSystem.PlayerInput.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_ColorGradient_op_Equality()
+		public static void UnityEngine_InputSystem_PlayerInput_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9929,9 +13335,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_ColorGradient.op_Inequality
+		// UnityEngine.InputSystem.PlayerInput.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_ColorGradient_op_Inequality()
+		public static void UnityEngine_InputSystem_PlayerInput_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9941,9 +13347,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_Dropdown.op_Implicit
+		// UnityEngine.InputSystem.PlayerInputManager.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_Dropdown_op_Implicit()
+		public static void UnityEngine_InputSystem_PlayerInputManager_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -9952,9 +13358,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_Dropdown.op_Equality
+		// UnityEngine.InputSystem.PlayerInputManager.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_Dropdown_op_Equality()
+		public static void UnityEngine_InputSystem_PlayerInputManager_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9964,9 +13370,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_Dropdown.op_Inequality
+		// UnityEngine.InputSystem.PlayerInputManager.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_Dropdown_op_Inequality()
+		public static void UnityEngine_InputSystem_PlayerInputManager_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9976,9 +13382,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_FontAsset.op_Implicit
+		// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_FontAsset_op_Implicit()
+		public static void UnityEngine_InputSystem_XR_TrackedPoseDriver_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -9987,9 +13393,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_FontAsset.op_Equality
+		// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_FontAsset_op_Equality()
+		public static void UnityEngine_InputSystem_XR_TrackedPoseDriver_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -9999,9 +13405,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_FontAsset.op_Inequality
+		// UnityEngine.InputSystem.XR.TrackedPoseDriver.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_FontAsset_op_Inequality()
+		public static void UnityEngine_InputSystem_XR_TrackedPoseDriver_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10011,9 +13417,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_InputField.op_Implicit
+		// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_InputField_op_Implicit()
+		public static void UnityEngine_InputSystem_UI_InputSystemUIInputModule_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -10022,9 +13428,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_InputField.op_Equality
+		// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_InputField_op_Equality()
+		public static void UnityEngine_InputSystem_UI_InputSystemUIInputModule_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10034,9 +13440,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_InputField.op_Inequality
+		// UnityEngine.InputSystem.UI.InputSystemUIInputModule.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_InputField_op_Inequality()
+		public static void UnityEngine_InputSystem_UI_InputSystemUIInputModule_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10046,9 +13452,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_PackageResourceImporterWindow.op_Implicit
+		// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_PackageResourceImporterWindow_op_Implicit()
+		public static void UnityEngine_InputSystem_UI_MultiplayerEventSystem_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -10057,9 +13463,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_PackageResourceImporterWindow.op_Equality
+		// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_PackageResourceImporterWindow_op_Equality()
+		public static void UnityEngine_InputSystem_UI_MultiplayerEventSystem_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10069,9 +13475,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_PackageResourceImporterWindow.op_Inequality
+		// UnityEngine.InputSystem.UI.MultiplayerEventSystem.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_PackageResourceImporterWindow_op_Inequality()
+		public static void UnityEngine_InputSystem_UI_MultiplayerEventSystem_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10081,9 +13487,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_ScrollbarEventHandler.op_Implicit
+		// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_ScrollbarEventHandler_op_Implicit()
+		public static void UnityEngine_InputSystem_UI_TrackedDeviceRaycaster_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -10092,9 +13498,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_ScrollbarEventHandler.op_Equality
+		// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_ScrollbarEventHandler_op_Equality()
+		public static void UnityEngine_InputSystem_UI_TrackedDeviceRaycaster_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10104,9 +13510,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_ScrollbarEventHandler.op_Inequality
+		// UnityEngine.InputSystem.UI.TrackedDeviceRaycaster.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_ScrollbarEventHandler_op_Inequality()
+		public static void UnityEngine_InputSystem_UI_TrackedDeviceRaycaster_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10116,9 +13522,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_SelectionCaret.op_Implicit
+		// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SelectionCaret_op_Implicit()
+		public static void UnityEngine_InputSystem_UI_VirtualMouseInput_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -10127,9 +13533,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_SelectionCaret.op_Equality
+		// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SelectionCaret_op_Equality()
+		public static void UnityEngine_InputSystem_UI_VirtualMouseInput_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10139,9 +13545,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_SelectionCaret.op_Inequality
+		// UnityEngine.InputSystem.UI.VirtualMouseInput.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SelectionCaret_op_Inequality()
+		public static void UnityEngine_InputSystem_UI_VirtualMouseInput_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10151,9 +13557,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_Settings.op_Implicit
+		// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_Settings_op_Implicit()
+		public static void UnityEngine_InputSystem_OnScreen_OnScreenButton_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -10162,9 +13568,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_Settings.op_Equality
+		// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_Settings_op_Equality()
+		public static void UnityEngine_InputSystem_OnScreen_OnScreenButton_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10174,9 +13580,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_Settings.op_Inequality
+		// UnityEngine.InputSystem.OnScreen.OnScreenButton.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_Settings_op_Inequality()
+		public static void UnityEngine_InputSystem_OnScreen_OnScreenButton_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10186,9 +13592,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_SpriteAnimator.op_Implicit
+		// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SpriteAnimator_op_Implicit()
+		public static void UnityEngine_InputSystem_OnScreen_OnScreenStick_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -10197,9 +13603,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_SpriteAnimator.op_Equality
+		// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SpriteAnimator_op_Equality()
+		public static void UnityEngine_InputSystem_OnScreen_OnScreenStick_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10209,9 +13615,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_SpriteAnimator.op_Inequality
+		// UnityEngine.InputSystem.OnScreen.OnScreenStick.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SpriteAnimator_op_Inequality()
+		public static void UnityEngine_InputSystem_OnScreen_OnScreenStick_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10221,9 +13627,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_SpriteAsset.op_Implicit
+		// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Implicit
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SpriteAsset_op_Implicit()
+		public static void UnityEngine_InputSystem_EnhancedTouch_TouchSimulation_op_Implicit()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			bool conversion = ((bool)(arg0));
@@ -10232,9 +13638,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_SpriteAsset.op_Equality
+		// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Equality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SpriteAsset_op_Equality()
+		public static void UnityEngine_InputSystem_EnhancedTouch_TouchSimulation_op_Equality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
@@ -10244,1549 +13650,9 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// TMPro.TMP_SpriteAsset.op_Inequality
+		// UnityEngine.InputSystem.EnhancedTouch.TouchSimulation.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SpriteAsset_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TMPro.TMP_StyleSheet.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_StyleSheet_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TMPro.TMP_StyleSheet.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_StyleSheet_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TMPro.TMP_StyleSheet.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_StyleSheet_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TMPro.TMP_SubMesh.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SubMesh_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TMPro.TMP_SubMesh.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SubMesh_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TMPro.TMP_SubMesh.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SubMesh_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TMPro.TMP_SubMeshUI.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SubMeshUI_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TMPro.TMP_SubMeshUI.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SubMeshUI_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TMPro.TMP_SubMeshUI.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TMPro_TMP_SubMeshUI_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.ScriptGraphAsset.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_ScriptGraphAsset_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.ScriptGraphAsset.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_ScriptGraphAsset_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.ScriptGraphAsset.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_ScriptGraphAsset_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.ScriptMachine.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_ScriptMachine_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.ScriptMachine.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_ScriptMachine_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.ScriptMachine.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_ScriptMachine_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.AnimatorMessageListener.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_AnimatorMessageListener_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.AnimatorMessageListener.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_AnimatorMessageListener_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.AnimatorMessageListener.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_AnimatorMessageListener_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.MacroScriptableObject.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_MacroScriptableObject_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.MacroScriptableObject.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_MacroScriptableObject_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.MacroScriptableObject.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_MacroScriptableObject_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TimelinePreferences.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TimelinePreferences_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TimelinePreferences.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TimelinePreferences_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TimelinePreferences.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TimelinePreferences_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TimelineProjectSettings.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TimelineProjectSettings_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TimelineProjectSettings.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TimelineProjectSettings_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// TimelineProjectSettings.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void TimelineProjectSettings_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.StateGraphAsset.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_StateGraphAsset_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.StateGraphAsset.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_StateGraphAsset_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.StateGraphAsset.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_StateGraphAsset_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.StateMachine.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_StateMachine_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.StateMachine.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_StateMachine_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// Unity.VisualScripting.StateMachine.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void Unity_VisualScripting_StateMachine_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARAnchor.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARAnchor_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARAnchor.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARAnchor_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARAnchor.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARAnchor_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARAnchorManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARAnchorManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARAnchorManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARAnchorManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARBackgroundRendererFeature_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARBackgroundRendererFeature_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARBackgroundRendererFeature_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARCameraBackground_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARCameraBackground_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARCameraBackground.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARCameraBackground_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARCameraManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARCameraManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARCameraManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARCameraManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARCameraManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARCameraManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbe_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbe_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.AREnvironmentProbe.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbe_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbeManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbeManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.AREnvironmentProbeManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_AREnvironmentProbeManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARFace.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARFace_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARFace.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARFace_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARFace.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARFace_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARFaceManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARFaceManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARFaceManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARFaceManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARFaceManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARFaceManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARFaceMeshVisualizer_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARFaceMeshVisualizer_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARFaceMeshVisualizer_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARHumanBody.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARHumanBody_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARHumanBody.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARHumanBody_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARHumanBody.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARHumanBody_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARHumanBodyManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARHumanBodyManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARHumanBodyManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARHumanBodyManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARInputManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARInputManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARInputManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARInputManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARInputManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARInputManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARMeshManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARMeshManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARMeshManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARMeshManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARMeshManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARMeshManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_AROcclusionManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_AROcclusionManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.AROcclusionManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_AROcclusionManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARParticipant.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARParticipant_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARParticipant.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARParticipant_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARParticipant.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARParticipant_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARParticipantManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARParticipantManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARParticipantManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARParticipantManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPlane.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPlane_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPlane.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPlane_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPlane.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPlane_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPlaneManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPlaneManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPlaneManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPlaneManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPlaneMeshVisualizer_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPlaneMeshVisualizer_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPlaneMeshVisualizer_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloud.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloud_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloud.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloud_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloud.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloud_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloudManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloudManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloudManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloudManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloudMeshVisualizer_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloudMeshVisualizer_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloudMeshVisualizer.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloudMeshVisualizer_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloudParticleVisualizer_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloudParticleVisualizer_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPointCloudParticleVisualizer_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPoseDriver.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPoseDriver_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPoseDriver.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPoseDriver_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARPoseDriver.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARPoseDriver_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARRaycast.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARRaycast_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARRaycast.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARRaycast_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARRaycast.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARRaycast_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARRaycastManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARRaycastManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARRaycastManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARRaycastManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARSession.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARSession_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARSession.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARSession_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARSession.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARSession_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARSessionOrigin.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARSessionOrigin_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARSessionOrigin.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARSessionOrigin_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARSessionOrigin.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARSessionOrigin_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedImage_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedImage_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedImage.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedImage_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedImageManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedImageManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedImageManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedImageManager_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedObject_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedObject_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedObject.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedObject_op_Inequality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 != arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Implicit
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedObjectManager_op_Implicit()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			bool conversion = ((bool)(arg0));
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Equality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedObjectManager_op_Equality()
-		{
-			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
-			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
-			bool @operator = (arg0 == arg1);
-			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.XR.ARFoundation.ARTrackedObjectManager.op_Inequality
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_XR_ARFoundation_ARTrackedObjectManager_op_Inequality()
+		public static void UnityEngine_InputSystem_EnhancedTouch_TouchSimulation_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
